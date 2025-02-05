@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .paint_background {
+    @apply bg-[#ebebeb] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] bg-repeat;
+  }
+}
 
 :root {
   --background: #ffffff;
