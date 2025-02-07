@@ -5,7 +5,13 @@
   .paint_background {
     @apply bg-[#ebebeb] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')] bg-repeat;
   }
+ 
+  .roller_background {
+    @apply bg-[#f7f7f7] bg-[url('/home_banner.png')] bg-cover bg-center bg-no-repeat w-full h-[300px];
+  }
+
 }
+
 
 :root {
   --background: #ffffff;

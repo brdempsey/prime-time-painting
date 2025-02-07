@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start w-full">
         {/* Left Section */}
         <div className="max-w-xl flex flex-col items-center lg:items-start">
-          <h1 className="text-4xl font-extrabold sm:text-7xl text-center lg:text-left">
+          <h1 className="text-4xl text-blue-700 font-extrabold sm:text-7xl text-center lg:text-left">
             Prime Time Painting
             <strong className="font-extrabold text-red-700 sm:block">
               {" "}
