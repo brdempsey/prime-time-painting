@@ -7,21 +7,21 @@ export default function AboutUs() {
 
       {/* Customer Focused */}
       <div className="flex flex-col items-center text-center space-y-2">
-        <FaHandshake className="w-16 h-16 md:w-24 md:h-24 lg:w-56 lg:h-32" />
+        <FaHandshake className="w-16 h-16 md:w-24 md:h-24 lg:w-42 lg:h-32" />
 
-        <h1 className=" text-2xl lg:text-3xl font-bold">Customer Focused</h1>
+        <h1 className=" text-2xl  font-bold">Customer Focused</h1>
       </div>
 
       {/* Quality Driven */}
       <div className="flex flex-col items-center text-center space-y-2">
-        <IoShieldCheckmark className="w-16 h-16 md:w-24 md:h-24 lg:w-56 lg:h-32" />
-        <h1 className="text-2xl lg:text-3xl font-bold">Quality Driven</h1>
+        <IoShieldCheckmark className="w-16 h-16 md:w-24 md:h-24 lg:w-42 lg:h-32" />
+        <h1 className="text-2xl  font-bold">Quality Driven</h1>
       </div>
 
       {/* Locally Owned */}
       <div className="hidden sm:flex flex-col items-center text-center space-y-2">
-        <FaHouseUser className="w-16 h-16 md:w-24 md:h-24 lg:w-56 lg:h-32" />
-        <h1 className="text-2xl lg:text-3xl font-bold">Locally Owned</h1>
+        <FaHouseUser className="w-16 h-16 md:w-24 md:h-24 lg:w-42 lg:h-32" />
+        <h1 className="text-2xl  font-bold">Locally Owned</h1>
       </div>
     </div>
   );

@@ -20,13 +20,13 @@ export const Navigation = () => {
 
       {/* Desktop Links */}
       <div className="hidden md:flex space-x-4">
-        <Link href="/" className={pathname === "/" ? "font-bold" : "text-black-500"}>
+        <Link href="/" className={pathname === "/" ? "font-bold text-red-700" : "text-black-500"}>
           Home
         </Link>
-        <Link href="#" className={pathname === "/about" ? "font-bold" : "text-black-500"}>
+        <Link href="#" className={pathname === "/about" ? "font-bold text-red-700" : "text-black-500"}>
           About
         </Link>
-        <Link href="#" className={pathname === "/contactus" ? "font-bold" : "text-black-500"}>
+        <Link href="#" className={pathname === "/contactus" ? "font-bold text-red-700" : "text-black-500"}>
           Contact Us
         </Link>
       </div>
