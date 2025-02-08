@@ -22,6 +22,14 @@ export default function GoalSection() {
             We want you to brag to your neighbors, friends, and family about your experience 
             with us. <strong className="text-red-700">Please leave a Google review</strong> and follow us on Facebook and Instagram!
           </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
+            <a
+              className="font-extrabold block w-full rounded-sm bg-red-600 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:ring-3 focus:outline-hidden sm:w-auto"
+              href="#"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     );
