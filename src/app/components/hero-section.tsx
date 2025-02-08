@@ -24,7 +24,7 @@ export default function HeroSection() {
             </strong>
           </h1>
 
-          <p className="font-bold mt-4 sm:text-xl text-center lg:text-left lg:text-3xl">
+          <p className="font-bold text-black mt-4 sm:text-xl text-center lg:text-left lg:text-3xl">
             55 Years of Expertise,
             <br />
             One Trusted Team
