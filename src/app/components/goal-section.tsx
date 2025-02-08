@@ -4,7 +4,7 @@
 
 export default function GoalSection() {
     return (
-      <div className="w-full py-16 px-6 flex flex-col items-center">
+      <div className="bg-white w-full py-16 px-6 flex flex-col items-center">
         <div className="max-w-6xl">
           <h1 className="text-5xl font-extrabold text-red-700 text-center lg:text-left mb-6">
             Our Goal

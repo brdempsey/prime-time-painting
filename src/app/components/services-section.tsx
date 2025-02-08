@@ -8,14 +8,14 @@ export default function ServicesSection() {
   return (
     <section
       id="features"
-      className="w-full paint_background mx-auto px-4 space-y-6 py-8 md:py-12 lg:py-20"
+      className="text-black w-full paint_background mx-auto px-4 space-y-6 py-8 md:py-12 lg:py-20"
     >
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
         <h2 className="font-bold text-5xl  leading-[1.1] md:text-6xl text-red-700">
           Services
         </h2>
 
-        <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+        <p className=" max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           At{" "}
           <strong className="text-red-700">
             Prime Time Painting & Remodeling

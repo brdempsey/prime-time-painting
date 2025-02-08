@@ -77,7 +77,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="mailto:info@primetimepainting.com" className="hover:text-red-600">
-                  info@primetimepainting.com
+                  in@primetimepainting.com
                 </a>
               </li>
             </ul>

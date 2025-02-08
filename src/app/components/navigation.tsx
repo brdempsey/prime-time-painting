@@ -89,7 +89,7 @@ export const Navigation = () => {
 
       {/* Mobile Menu Button */}
       <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-2xl">
-        {menuOpen ? <FiX /> : <FiMenu />}
+        {menuOpen ? <FiX className="text-black"/> : <FiMenu className="text-black"/>}
       </button>
 
       {/* Mobile Dropdown Menu with Animation */}
