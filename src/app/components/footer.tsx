@@ -86,7 +86,7 @@ export const Footer = () => {
 
         {/* Footer Bottom Section */}
         <div className="mt-8 text-sm text-gray-400">
-          <p>&copy; 2025 Prime Time Painting. All rights reserved.</p>
+          <p>&copy; 2025 PrimeTime Painting. All rights reserved.</p>
         </div>
       </div>
     </footer>

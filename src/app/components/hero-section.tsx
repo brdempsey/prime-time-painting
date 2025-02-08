@@ -17,7 +17,7 @@ export default function HeroSection() {
         {/* Left Section */}
         <div className="max-w-xl flex flex-col items-center lg:items-start z-10 relative">
           <h1 className="text-4xl text-blue-700 font-extrabold sm:text-7xl text-center lg:text-left">
-            Prime Time Painting <br/>
+            PrimeTime Painting <br/>
             <strong className="font-extrabold text-red-700 sm:block">
               {" "}
               & Remodeling{" "}

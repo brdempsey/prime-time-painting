@@ -32,7 +32,7 @@ export default function WhyChoosePrimeTime() {
       {/* Right Column - 70% Width */}
       <div className="w-full md:w-2/3">
         <h1 className="text-5xl md:text-3xl lg:text-5xl font-bold my-4 text-red-700 text-center md:text-left">
-          Why Choose Prime Time Painting?
+          Why Choose PrimeTime Painting?
         </h1>
 
         {/* First Row of Cards */}

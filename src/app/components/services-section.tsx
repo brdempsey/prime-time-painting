@@ -18,7 +18,7 @@ export default function ServicesSection() {
         <p className=" max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           At{" "}
           <strong className="text-red-700">
-            Prime Time Painting & Remodeling
+            PrimeTime Painting & Remodeling
           </strong>{" "}
           we deliver top-quality results with premium materials, skilled
           professionals, efficient service, and a commitment to safety and
