@@ -15,7 +15,7 @@ export const Navigation = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md flex justify-between items-center p-4 z-50 font-bold">
-      {/* Logo */}
+      {/* Logo and home linki*/}
       <Link href="/">
         {/* <Image
           src={logo}
