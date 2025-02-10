@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
+// import Image from "next/image";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const logo = "/ptp_nav_logo.png";
