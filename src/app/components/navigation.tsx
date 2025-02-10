@@ -17,12 +17,12 @@ export const Navigation = () => {
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md flex justify-between items-center p-4 z-50 font-bold">
       {/* Logo */}
       <Link href="/">
-        <Image
+        {/* <Image
           src={logo}
           width={100}
           height={100}
           alt="Prime Time Painting Logo"
-        />
+        /> */}
       </Link>
 
       {/* Desktop Links */}
