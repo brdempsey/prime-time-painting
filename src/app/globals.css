@@ -9,6 +9,7 @@
   .roller_background {
     @apply bg-[#f7f7f7] bg-[url('/home_banner.png')] bg-cover bg-center bg-no-repeat w-full h-[300px];
   }
+  
 
 }
 

@@ -14,7 +14,7 @@ export const Navigation = () => {
   const [aboutOpen, setAboutOpen] = useState(false); // for dropdown
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md flex justify-between items-center p-4 z-50 font-bold">
+    <nav className="top-0 left-0 w-full bg-white shadow-md flex justify-between items-center p-4 font-bold">
       {/* Logo and home linki*/}
       <Link href="/">
         {/* <Image
@@ -47,14 +47,14 @@ export const Navigation = () => {
           {servicesOpen && (
             <div className="absolute left-0 bg-white shadow-md mt-2 space-y-2 py-2 w-48">
               <Link
-                href="#"
+                href="/design"
                 className="block px-4 text-black hover:bg-gray-100"
                 onClick={() => setServicesOpen(false)}
               >
                 Design
               </Link>
               <Link
-                href="#"
+                href="/interior"
                 className="block px-4 text-black hover:bg-gray-100"
                 onClick={() => setServicesOpen(false)}
               >
@@ -108,7 +108,7 @@ export const Navigation = () => {
         </div>
 
         <Link
-          href="#"
+          href="gallery"
           className={
             pathname === "/gallery" ? "font-bold text-red-700" : "text-black"
           }
@@ -171,14 +171,14 @@ export const Navigation = () => {
           {servicesOpen && (
             <div className="absolute left-0 bg-white shadow-md mt-2 space-y-2 py-2 w-48 transition-all duration-300 ease-in-out transform z-50">
               <Link
-                href="/#"
+                href="/design"
                 className="block px-4 text-black hover:bg-gray-100"
                 onClick={() => setServicesOpen(false)}
               >
                 Design
               </Link>
               <Link
-                href="/#"
+                href="/interior"
                 className="block px-4 text-black hover:bg-gray-100"
                 onClick={() => setServicesOpen(false)}
               >
@@ -221,7 +221,7 @@ export const Navigation = () => {
           )}
         </div>
         <Link
-          href="/#"
+          href="/gallery"
           className="text-black py-2"
           onClick={() => setMenuOpen(false)}
         >
