@@ -16,10 +16,10 @@ export default function OurMission() {
       </div>
 
       {/* Content Section */}
-      <div className="flex flex-row paint_background p-4 gap-6">
+      <div className="flex flex-col lg:flex-row paint_background p-4 gap-6">
         {/* Content Section */}
-        <div className="flex flex-col gap-6 w-1/2">
-          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
+        <div className="flex flex-col gap-6 lg:w-1/2">
+          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg transition-shadow duration-300 hover:shadow-2xl">
             <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">
               Who We Are
             </h2>
@@ -49,7 +49,7 @@ export default function OurMission() {
             </p>
           </div>
 
-          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
+          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg transition-shadow duration-300 hover:shadow-2xl">
             <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">
               What We Deliver
             </h2>
@@ -77,14 +77,14 @@ export default function OurMission() {
         </div>
 
         {/* Image Section */}
-        <div className="flex flex-row items-start gap-6">
+        <div className="flex flex-col items-center md:flex-row lg:flex-col 2xl:flex-row items-start gap-6">
           <div className="flex flex-col gap-6">
             <Image
               src={goalOne}
               layout="intrinsic"
               width={500}
               height={300}
-              className="rounded-lg shadow-lg"
+              className=" shadow-lg"
               alt="Goal Image 1"
             />
             <Image
@@ -92,7 +92,7 @@ export default function OurMission() {
               layout="intrinsic"
               width={500}
               height={300}
-              className="rounded-lg shadow-lg"
+              className=" shadow-lg"
               alt="Goal Image 2"
             />
           </div>
@@ -102,7 +102,7 @@ export default function OurMission() {
               layout="intrinsic"
               width={500}
               height={300}
-              className="rounded-lg shadow-lg"
+              className=" shadow-lg"
               alt="Goal Image 3"
             />
             <Image
@@ -110,7 +110,7 @@ export default function OurMission() {
               layout="intrinsic"
               width={500}
               height={300}
-              className="rounded-lg shadow-lg"
+              className=" shadow-lg"
               alt="Goal Image 4"
             />
           </div>
