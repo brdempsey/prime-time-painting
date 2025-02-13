@@ -7,7 +7,7 @@ const goalFour = "/goal_4.jpg";
 
 export default function OurMission() {
   return (
-    <div className="pt-14">
+    <div className="pt-14 text-black">
       {/* Hero Section */}
       <div className="mx-auto text-center flex justify-center px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start bg-cover bg-center bg-[url('/our-mission-hero.jpg')]">
         <h1 className="text-6xl font-bold text-blue-700 text-center">
