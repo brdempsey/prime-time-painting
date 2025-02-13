@@ -56,8 +56,8 @@ export const Navigation = () => {
           </button>
           {aboutOpen && (
             <div className="absolute left-0 bg-white shadow-md mt-2 space-y-2 py-2 w-48">
-              <Link href="/our-goal" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
-                Our Goal
+              <Link href="/about-us" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+                About PrimeTime
               </Link>
               <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Meet Our Team
@@ -122,8 +122,8 @@ export const Navigation = () => {
           </button>
           {aboutOpen && (
             <div className="absolute left-0 bg-white shadow-md mt-2 space-y-2 py-2 w-48 transition-all duration-300 ease-in-out transform">
-              <Link href="/our-mission" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
-                Our Mission
+              <Link href="/about-us" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+                About PrimeTime
               </Link>
               <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Meet Our Team

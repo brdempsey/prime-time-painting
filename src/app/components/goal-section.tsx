@@ -1,7 +1,4 @@
 
-
-
-
 export default function GoalSection() {
     return (
       <div className="bg-white w-full py-16 px-6 flex flex-col items-center">
@@ -25,7 +22,7 @@ export default function GoalSection() {
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
             <a
               className="font-extrabold block w-50 rounded-sm bg-red-600 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:ring-3 focus:outline-hidden sm:w-auto"
-              href="/our-goal"
+              href="/about-us"
             >
               Learn More
             </a>

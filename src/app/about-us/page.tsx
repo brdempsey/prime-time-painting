@@ -3,6 +3,7 @@ import Image from "next/image";
 const goalOne = "/goal_1.jpg";
 const goalTwo = "/goal_2.jpg";
 const goalThree = "/goal_3.jpg";
+const goalFour = "/goal_4.jpg";
 
 export default function OurMission() {
   return (
@@ -10,17 +11,19 @@ export default function OurMission() {
       {/* Hero Section */}
       <div className="mx-auto text-center flex justify-center px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start bg-cover bg-center bg-[url('/our-mission-hero.jpg')]">
         <h1 className="text-6xl font-bold text-blue-700 text-center">
-          Our Goal
+          About Us
         </h1>
       </div>
 
       {/* Content Section */}
       <div className="flex flex-row paint_background p-4 gap-6">
-  {/* Content Section */}
-  <div className="flex flex-col gap-6 w-1/2">
-    <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
-      <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">Who We Are</h2>
-      <p className="text-lg">
+        {/* Content Section */}
+        <div className="flex flex-col gap-6 w-1/2">
+          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
+            <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">
+              Who We Are
+            </h2>
+            <p className="text-base">
               Welcome to{" "}
               <span className="text-red-700 font-bold">
                 Primetime Painting and Remodeling
@@ -44,11 +47,13 @@ export default function OurMission() {
               Primetime Painting and Remodeling is dedicated to making your
               painting experience smooth, efficient, and satisfying.
             </p>
-    </div>
+          </div>
 
-    <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
-      <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">What We Deliver</h2>
-      <p className="text-lg">
+          <div className="flex flex-col text-center p-10 bg-white border-2 border-gray-300 shadow-lg rounded-lg transition-shadow duration-300 hover:shadow-2xl">
+            <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">
+              What We Deliver
+            </h2>
+            <p className="text-base">
               Our most <span className="text-red-700 font-bold">important</span>{" "}
               goal is for you to love your home when we finish! From start to
               finish, we work with you to help walk you through the process. We
@@ -67,37 +72,50 @@ export default function OurMission() {
               <span className="text-red-700 font-bold">
                 Facebook and Instagram
               </span>
-              .
             </p>
-    </div>
-  </div>
+          </div>
+        </div>
 
-  {/* Image Section */}
-  <div className="w-1/2 flex flex-col items-center gap-6">
-    <Image
-      src={goalOne}
-      width={500}
-      height={300}
-      className="rounded-lg shadow-lg"
-      alt="Goal Image 1"
-    />
-    <Image
-      src={goalTwo}
-      width={500}
-      height={300}
-      className="rounded-lg shadow-lg"
-      alt="Goal Image 2"
-    />
-    <Image
-      src={goalThree}
-      width={500}
-      height={300}
-      className="rounded-lg shadow-lg"
-      alt="Goal Image 3"
-    />
-  </div>
-</div>
-
+        {/* Image Section */}
+        <div className="flex flex-row items-start gap-6">
+          <div className="flex flex-col gap-6">
+            <Image
+              src={goalOne}
+              layout="intrinsic"
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg"
+              alt="Goal Image 1"
+            />
+            <Image
+              src={goalTwo}
+              layout="intrinsic"
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg"
+              alt="Goal Image 2"
+            />
+          </div>
+          <div className="flex flex-col gap-6">
+            <Image
+              src={goalThree}
+              layout="intrinsic"
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg"
+              alt="Goal Image 3"
+            />
+            <Image
+              src={goalFour}
+              layout="intrinsic"
+              width={500}
+              height={300}
+              className="rounded-lg shadow-lg"
+              alt="Goal Image 4"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
