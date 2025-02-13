@@ -5,7 +5,7 @@ const exHero = "/exterior_hero.jpg";
 const exHeroTwo = "/exterior_hero2.jpg";
 const inHero = "/interior_hero.jpg";
 const logo = "/ptp_hero_logo.png";
-const logoTwo = "/ptp_hero_logo_mobile.png";
+
 
 export default function HeroSection() {
   return (
