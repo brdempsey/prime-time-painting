@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 
 const design = "/services_design.jpg";
@@ -52,9 +53,12 @@ export default function ServicesSection() {
               </p>
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3  transition-colors">
+            <a
+              href="/design"
+              className="w-full block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 text-center transition-colors"
+            >
               More Info
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white  shadow-lg overflow-hidden hover:shadow-xl transition-all">
@@ -76,16 +80,18 @@ export default function ServicesSection() {
 
             <div className="flex justify-between items-center">
               <p className="mb-6">
-              Elevate Your Interior! Our expert painters use premium materials
-              to refresh your space with flawless, lasting results. Experience
-              the Primetime touch!
+                Elevate Your Interior! Our expert painters use premium materials
+                to refresh your space with flawless, lasting results. Experience
+                the Primetime touch!
               </p>
-              
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 transition-colors">
+            <a
+              href="/interior"
+              className="w-full block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 text-center transition-colors"
+            >
               More Info
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl bg-white  shadow-lg overflow-hidden hover:shadow-xl transition-all">
@@ -107,9 +113,9 @@ export default function ServicesSection() {
 
             <div className="flex justify-between items-center">
               <p className="mb-5">
-              Boost Your Curb Appeal! Our expert exterior painting enhances your
-              home with durable, high-quality finishes. Trust Primetime for a
-              beautiful, lasting transformation!
+                Boost Your Curb Appeal! Our expert exterior painting enhances
+                your home with durable, high-quality finishes. Trust Primetime
+                for a beautiful, lasting transformation!
               </p>
             </div>
 

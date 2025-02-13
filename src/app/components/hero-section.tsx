@@ -4,14 +4,14 @@ const hero = "/hero_stock.png";
 const exHero = "/exterior_hero.jpg";
 const exHeroTwo = "/exterior_hero2.jpg";
 const inHero = "/interior_hero.jpg";
-const logo = "/ptp_nav_logo.png";
+const logo = "/ptp_hero_logo.png";
+const logoTwo = "/ptp_hero_logo_mobile.png";
 
 export default function HeroSection() {
   return (
     <div className="w-full paint_background">
       {/* Hero Section with background for sm and md */}
       <div className="mx-auto text-center flex justify-center max-w-screen-xl px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start w-full bg-cover bg-center bg-[url('/exterior_hero.jpg')] lg:bg-none relative gap-4">
-        
         {/* White Mask Overlay */}
         <div className="absolute inset-0 bg-white opacity-30 z-0"></div>
 
@@ -24,12 +24,18 @@ export default function HeroSection() {
               & Remodeling{" "}
             </strong>
           </h1> */}
+      
             <Image
               src={logo}
               width={1000}
               height={100}
               alt="hero section image"
             />
+          
+
+          <div>
+
+          </div>
 
           <p className="font-bold text-black mt-4 sm:text-xl text-center lg:text-left lg:text-3xl">
             55 Years of Expertise,
