@@ -92,6 +92,12 @@ export default function WhyChoosePrimeTime() {
             </div>
           </div>
         </div>
+        <a
+          href="/why-choose-primetime"
+          className="w-1/4 block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 text-center transition-colors mt-4"
+        >
+          More Info
+        </a>
       </div>
     </div>
   );
