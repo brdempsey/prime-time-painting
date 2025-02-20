@@ -1,15 +1,15 @@
 import Image from "next/image";
 
-const goalOne = "/goal_1.jpg";
-const goalTwo = "/goal_2.jpg";
-const goalThree = "/goal_3.jpg";
-const goalFour = "/goal_4.jpg";
+const goalOne = "/goal_1.png";
+const goalTwo = "/goal_2.png";
+const goalThree = "/goal_3.png";
+const goalFour = "/goal_4.png";
 
 export default function OurMission() {
   return (
     <div className="pt-14 text-black">
       {/* Hero Section */}
-      <div className="mx-auto text-center flex justify-center px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start bg-cover bg-center bg-[url('/our-mission-hero.jpg')]">
+      <div className="mx-auto text-center flex justify-center px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start bg-cover bg-center bg-[url('/our-mission-hero.png')]">
         <h1 className="text-6xl font-bold text-blue-700 text-center">
           About Us
         </h1>
