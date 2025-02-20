@@ -5,6 +5,7 @@ const exHero = "/exterior_hero.jpg";
 const exHeroTwo = "/exterior_hero2.jpg";
 const inHero = "/interior_hero.jpg";
 const logo = "/ptp_hero_logo.png";
+const mobileLogo = "/edited_logo.png";
 
 
 export default function HeroSection() {
@@ -24,13 +25,23 @@ export default function HeroSection() {
               & Remodeling{" "}
             </strong>
           </h1> */}
-      
-            <Image
+          <div className="hidden lg:block">
+          <Image
               src={logo}
               width={1000}
               height={100}
               alt="hero section image"
             />
+          </div>
+          <div className="lg:hidden">
+          <Image
+              src={mobileLogo}
+              width={1000}
+              height={100}
+              alt="hero section image"
+            />
+          </div>
+           
           
 
           <div>
