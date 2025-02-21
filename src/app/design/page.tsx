@@ -105,8 +105,8 @@ export default function Design() {
             <li className="flex items-center gap-2"> Color Consultation</li>
             <li className="flex items-center gap-2"> Custom Accent Walls</li>
             <li className="flex items-center gap-2"> Faux Finishes</li>
-            <li className="flex items-center gap-2"> Ombre & Gradient Walls</li>
-            <li className="flex items-center gap-2"> Metallic & Pearl Finishes</li>
+            <li className="flex items-center gap-2"> Custom Remodel Designs</li>
+          
           </ul>
           <button className="mt-6 px-6 py-3 bg-red-700 text-white text-lg font-semibold shadow-md hover:bg-red-800 transition-all duration-300">
             Book a Consultation
