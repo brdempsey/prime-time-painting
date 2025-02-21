@@ -39,8 +39,8 @@ export const Footer = () => {
             <h3 className="font-bold text-lg mb-2">About Us</h3>
             <ul>
               <li>
-                <Link href="#" className="hover:text-red-600">
-                  Our Mission
+                <Link href="/about-us" className="hover:text-red-600">
+                  About PrimeTime
                 </Link>
               </li>
               <li>

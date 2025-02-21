@@ -42,7 +42,7 @@ export const Navigation = () => {
               <Link href="/interior" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Interior
               </Link>
-              <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+              <Link href="/exterior" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Exterior
               </Link>
             </div>
@@ -111,7 +111,7 @@ export const Navigation = () => {
               <Link href="/interior" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Interior
               </Link>
-              <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+              <Link href="/exterior" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Exterior
               </Link>
             </div>
