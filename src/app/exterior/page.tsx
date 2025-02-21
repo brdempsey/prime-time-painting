@@ -10,9 +10,9 @@ export default function Exterior() {
       {/* Title */}
       <div className="flex flex-col items-center text-center pb-10">
         <h1 className="text-4xl font-bold">Exterior</h1>
-        <h2 className="text-3xl">Enhance Your Home's Curb Appeal with Professional Exterior Painting!</h2>
+        <h2 className="text-3xl">Enhance Your Home&apos;s Curb Appeal with Professional Exterior Painting!</h2>
         <p className="text-base text-body-color">
-        Give your home a fresh, vibrant look with Primetime's expert exterior painting services.
+        Give your home a fresh, vibrant look with Primetime&apos;s expert exterior painting services.
         </p>
       </div>
 
