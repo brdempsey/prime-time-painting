@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <div className="w-full paint_background">
       {/* Hero Section with background for sm and md */}
-      <div className="mx-auto text-center flex justify-center max-w-screen-xl px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start w-full bg-cover bg-center bg-[url('/exterior_hero.jpg')] lg:bg-none relative gap-4">
+      <div className="mx-auto text-center flex justify-center max-w-screen-xl px-4 py-32 lg:flex lg:h-full lg:items-start lg:justify-items-start w-full bg-cover bg-center bg-[url('/backgrounds/home-page-bg.PNG')] lg:bg-none relative gap-4">
         {/* White Mask Overlay */}
         <div className="absolute inset-0 bg-white opacity-30 z-0"></div>
 
