@@ -71,13 +71,13 @@ export const Footer = () => {
             <h3 className="font-bold text-lg mb-2">Contact</h3>
             <ul>
               <li>
-                <a href="tel:+15555555555" className="hover:text-red-600">
-                  (555) 555-5555
+                <a href="tel:+13162541190" className="hover:text-red-600">
+                  316-254-1190
                 </a>
               </li>
               <li>
                 <a href="mailto:info@primetimepainting.com" className="hover:text-red-600">
-                  email@email.com
+                  info.primetimewichita<br/>@gmail.com
                 </a>
               </li>
             </ul>

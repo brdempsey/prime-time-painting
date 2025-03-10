@@ -118,9 +118,12 @@ export default function ServicesSection() {
               </p>
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3  transition-colors">
+            <a
+              href="/exterior"
+              className="w-full block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 text-center transition-colors"
+            >
               More Info
-            </button>
+            </a>
           </div>
         </div>
       </div>

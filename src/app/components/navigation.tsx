@@ -72,13 +72,13 @@ export const Navigation = () => {
         <Link href="/gallery" className={pathname === "/gallery" ? "font-bold text-red-700" : "text-black"}>
           Gallery
         </Link>
-        <Link href="/contactus" className={pathname === "/contactus" ? "font-bold text-red-700" : "text-black"}>
+        <Link href="/contact-us" className={pathname === "/contact-us" ? "font-bold text-red-700" : "text-black"}>
           Contact Us
         </Link>
 
-        <a href="tel:+15555555555">
+        <a href="tel:+13162541190">
           <button className="bg-[#1976d2] text-white py-2 px-4 rounded hover:bg-[#1565c0] transition duration-200">
-            (555) 555-5555
+            (316) 254-1190
           </button>
         </a>
       </div>
@@ -141,13 +141,13 @@ export const Navigation = () => {
         <Link href="/gallery" className="text-black py-2" onClick={closeAllMenus}>
           Gallery
         </Link>
-        <Link href="/contactus" className="text-black py-2" onClick={closeAllMenus}>
+        <Link href="/contact-us" className="text-black py-2" onClick={closeAllMenus}>
           Contact Us
         </Link>
 
-        <a href="tel:+15555555555">
+        <a href="tel:+13162541190">
           <button className="bg-[#1976d2] text-white py-2 px-4 rounded hover:bg-[#1565c0] transition duration-200">
-            (555) 555-5555
+            (316) 254-1190
           </button>
         </a>
       </div>

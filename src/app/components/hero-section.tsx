@@ -59,7 +59,7 @@ export default function HeroSection() {
               className="font-extrabold block w-full rounded-sm bg-red-600 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-red-700 focus:ring-3 focus:outline-hidden sm:w-auto"
               href="#"
             >
-              Get a Quote
+              Request an Estimate
             </a>
           </div>
         </div>
