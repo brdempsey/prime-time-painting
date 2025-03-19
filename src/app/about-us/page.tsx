@@ -42,7 +42,7 @@ export default function OurMission() {
               drywall repairs. Our commitment to quality and attention to detail
               ensures that every project, big or small, is completed to the
               highest standards. We use only the best materials and latest
-              techniques to provide a flawless finish that lasts. Whether you're
+              techniques to provide a flawless finish that lasts. Whether you&apos;re
               looking to refresh a single room or revamp an entire building,
               PrimeTime Painting & Remodeling is dedicated to making your
               painting experience smooth, efficient, and satisfying.
