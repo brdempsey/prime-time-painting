@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="max-w-screen-xl mx-auto px-4 text-center md:text-left">
         {/* Logo Section */}
         <div className="flex justify-center md:justify-start mb-6">
-          <Image src={logo} width={100} height={100} alt="Prime Time Painting Logo" />
+          <Image src={logo} width={100} height={100} alt="PrimeTime Painting Logo" />
         </div>
 
         {/* Footer Navigation Links */}
@@ -77,7 +77,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="mailto:info@primetimepainting.com" className="hover:text-red-600">
-                  info.primetimewichita<br/>@gmail.com
+                  info.PrimeTimewichita<br/>@gmail.com
                 </a>
               </li>
             </ul>

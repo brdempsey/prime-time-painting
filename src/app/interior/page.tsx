@@ -14,7 +14,7 @@ export default function Interior() {
           Transform Your Space with Expert Interior Painting!
         </h2>
         <p className="text-base text-body-color">
-          Revitalize your homes interior space with our top-notch, Primetime
+          Revitalize your homes interior space with our top-notch, PrimeTime
           interior painting services.
         </p>
       </div>

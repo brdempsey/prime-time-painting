@@ -26,7 +26,7 @@ export default function OurMission() {
             <p className="text-base">
               Welcome to{" "}
               <span className="text-red-700 font-bold">
-                Primetime Painting and Remodeling
+                PrimeTime Painting & Remodeling
               </span>
               ! Locally owned by{" "}
               <span className="text-red-700 font-bold">
@@ -34,7 +34,7 @@ export default function OurMission() {
               </span>{" "}
               and <span className="text-red-700 font-bold">Matt Scott</span>,
               who share a combined 55 years of experience in the painting
-              industry. At Primetime Painting and Remodeling, we pride ourselves
+              industry. At PrimeTime Painting & Remodeling, we pride ourselves
               on delivering top-notch painting services that transform spaces
               and bring visions to life. With a team of skilled and experienced
               painters, we offer a wide range of services, including residential
@@ -42,9 +42,9 @@ export default function OurMission() {
               drywall repairs. Our commitment to quality and attention to detail
               ensures that every project, big or small, is completed to the
               highest standards. We use only the best materials and latest
-              techniques to provide a flawless finish that lasts. Whether youre
+              techniques to provide a flawless finish that lasts. Whether you're
               looking to refresh a single room or revamp an entire building,
-              Primetime Painting and Remodeling is dedicated to making your
+              PrimeTime Painting & Remodeling is dedicated to making your
               painting experience smooth, efficient, and satisfying.
             </p>
           </div>

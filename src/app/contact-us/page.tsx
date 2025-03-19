@@ -7,9 +7,9 @@ export default function ContactUs() {
         <div className="paint_background pt-20 flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
             {/* Heading Section */}
             <div className="text-center max-w-2xl mb-8">
-                <h1 className="text-4xl font-bold text-gray-800 mb-4">Get in Touch with Primetime Painting & Remodeling</h1>
+                <h1 className="text-4xl font-bold text-gray-800 mb-4">Get in Touch with PrimeTime Painting & Remodeling</h1>
                 <p className="text-gray-600 leading-relaxed">
-                    Have questions or ready to start your next painting project? Contact Primetime Painting & Remodeling today! 
+                    Have questions or ready to start your next painting project? Contact PrimeTime Painting & Remodeling today! 
                     With over 55 years of combined experience, our expert team is here to help transform your home or business 
                     with top-quality painting, siding replacement, and drywall repair services. Whether you need a fresh interior 
                     update or a complete exterior makeover, we ensure a seamless, stress-free experience with flawless results. 

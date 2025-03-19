@@ -81,7 +81,7 @@ export default function ServicesSection() {
               <p className="mb-6">
                 Elevate Your Interior! Our expert painters use premium materials
                 to refresh your space with flawless, lasting results. Experience
-                the Primetime touch!
+                the PrimeTime touch!
               </p>
             </div>
 
@@ -113,7 +113,7 @@ export default function ServicesSection() {
             <div className="flex justify-between items-center">
               <p className="mb-5">
                 Boost Your Curb Appeal! Our expert exterior painting enhances
-                your home with durable, high-quality finishes. Trust Primetime
+                your home with durable, high-quality finishes. Trust PrimeTime
                 for a beautiful, lasting transformation!
               </p>
             </div>

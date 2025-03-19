@@ -7,12 +7,12 @@ export default function GoalSection() {
             Our Goal
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed text-center lg:text-left">
-            <strong className="text-red-700">Primetime Premium Service:</strong> Our most important goal is for you to 
+            <strong className="text-red-700">PrimeTime Premium Service:</strong> Our most important goal is for you to 
             love your home when we get finished! From start to finish, we work with you to 
             guide you through the process. We offer <strong className="text-red-700">free estimates</strong>, color and design 
             services to help you achieve the perfect look for your home.
             <br /><br />
-            We love to educate! We walk with you through your project, explaining exactly what 
+            We love to educate! We will walk you through your project, explaining exactly what 
             we’ll do and the benefits of the products we use so you can make the best decisions. 
             Most importantly, <strong className="text-red-700">we don’t leave until you love your new paint job!</strong>
             <br /><br />

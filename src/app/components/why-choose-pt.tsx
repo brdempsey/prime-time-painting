@@ -12,7 +12,7 @@ export default function WhyChoosePrimeTime() {
           src={one}
           width={1000}
           height={1000}
-          alt="Prime Time Painting Logo"
+          alt="PrimeTime Painting Logo"
           layout="responsive"
           objectFit="cover"
         />
@@ -23,7 +23,7 @@ export default function WhyChoosePrimeTime() {
           src={two}
           width={1000}
           height={1000}
-          alt="Prime Time Painting Logo"
+          alt="PrimeTime Painting Logo"
           layout="responsive"
           objectFit="cover"
         />
