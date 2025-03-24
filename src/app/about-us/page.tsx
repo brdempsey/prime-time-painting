@@ -33,7 +33,7 @@ export default function OurMission() {
                 Jorge Ibarra, Charlie Brunecz,
               </span>{" "}
               and <span className="text-red-700 font-bold">Matt Scott</span>,
-              who share a combined 55 years of experience in the painting
+              who share over 73 years of experience in the painting
               industry. At PrimeTime Painting & Remodeling, we pride ourselves
               on delivering top-notch painting services that transform spaces
               and bring visions to life. With a team of skilled and experienced
@@ -53,7 +53,19 @@ export default function OurMission() {
             <h2 className="text-3xl font-bold mb-4 border-b-2 pb-2">
               What We Deliver
             </h2>
-            <p className="text-base">
+            <p className="text-base text-gray-700 leading-relaxed text-center lg:text-left">
+            <strong className="text-red-700">PrimeTime Premium Service:</strong> Our main goal is to ensure you love your home when 
+            the project is complete! From start to finish, we guide you through the entire process, offering 
+             <strong className="text-red-700"> free estimates</strong>, and color/design 
+            services to help you achieve the perfect look for your space.
+           We&apos;re passionate about educating you throughout your project. We&apos;ll walk you through every step, explaining what 
+           we&apos;ll do and the benefits of the products we use, so you can make informed decisions.
+            Most importantly, <strong className="text-red-700">we don&apos;t leave until you love your new paint job! </strong>
+            We want you to be so thrilled with your experience that you&apos;ll brag to your neighbors, friends and family! 
+             <strong className="text-red-700"> Please take a moment to leave us a Google review</strong> and 
+             follow us on <strong><a className="text-red-700" href="https://www.facebook.com/profile.php?id=61573762149968">Facebook</a></strong> and Instagram to stay connected!
+          </p>
+            {/* <p className="text-base">
               Our most <span className="text-red-700 font-bold">important</span>{" "}
               goal is for you to love your home when we finish! From start to
               finish, we work with you to help walk you through the process. We
@@ -72,7 +84,7 @@ export default function OurMission() {
               <span className="text-red-700 font-bold">
                 Facebook and Instagram
               </span>
-            </p>
+            </p> */}
           </div>
         </div>
 
