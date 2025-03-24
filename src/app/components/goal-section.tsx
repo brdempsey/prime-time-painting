@@ -7,17 +7,18 @@ export default function GoalSection() {
             Our Goal
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed text-center lg:text-left">
-            <strong className="text-red-700">PrimeTime Premium Service:</strong> Our most important goal is for you to 
-            love your home when we get finished! From start to finish, we work with you to 
-            guide you through the process. We offer <strong className="text-red-700">free estimates</strong>, color and design 
-            services to help you achieve the perfect look for your home.
+            <strong className="text-red-700">PrimeTime Premium Service:</strong> Our main goal is to ensure you love your home when 
+            the project is complete! From start to finish, we guide you through the entire process, offering 
+             <strong className="text-red-700"> free estimates</strong>, and color/design 
+            services to help you achieve the perfect look for your space.
             <br /><br />
-            We love to educate! We will walk you through your project, explaining exactly what 
-            we’ll do and the benefits of the products we use so you can make the best decisions. 
+           We're passionate about educating you throughout your project. We'll walk you through every step, explaining what 
+           we'll do and the benefits of the products we use, so you can make informed decisions.
             Most importantly, <strong className="text-red-700">we don’t leave until you love your new paint job!</strong>
             <br /><br />
-            We want you to brag to your neighbors, friends, and family about your experience 
-            with us. <strong className="text-red-700">Please leave a Google review</strong> and follow us on Facebook and Instagram!
+            We want you to be so thrilled with your experience that you'll brag to your neighbors, friends and family! 
+             <strong className="text-red-700"> Please take a moment to leave us a Google review</strong> and 
+             follow us on <strong><a className="text-red-700" href="https://www.facebook.com/profile.php?id=61573762149968">Facebook</a></strong> and Instagram to stay connected!
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
             <a
