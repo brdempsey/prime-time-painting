@@ -41,7 +41,7 @@ export default function ContactUs() {
         </h1>
         <p className="text-gray-600 leading-relaxed">
           Have questions or ready to start your next painting project? Contact
-          PrimeTime Painting & Remodeling today! With over 55 years of combined
+          PrimeTime Painting & Remodeling today! With over 73 years of combined
           experience, our expert team is here to help transform your home or
           business with top-quality painting, siding replacement, and drywall
           repair services. Whether you need a fresh interior update or a
