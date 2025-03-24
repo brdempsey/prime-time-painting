@@ -12,11 +12,11 @@ export default function GoalSection() {
              <strong className="text-red-700"> free estimates</strong>, and color/design 
             services to help you achieve the perfect look for your space.
             <br /><br />
-           We're passionate about educating you throughout your project. We'll walk you through every step, explaining what 
-           we'll do and the benefits of the products we use, so you can make informed decisions.
-            Most importantly, <strong className="text-red-700">we don’t leave until you love your new paint job!</strong>
+           We&apos;re passionate about educating you throughout your project. We&apos;ll walk you through every step, explaining what 
+           we&apos;ll do and the benefits of the products we use, so you can make informed decisions.
+            Most importantly, <strong className="text-red-700">we don&apos;t leave until you love your new paint job!</strong>
             <br /><br />
-            We want you to be so thrilled with your experience that you'll brag to your neighbors, friends and family! 
+            We want you to be so thrilled with your experience that you&apos;ll brag to your neighbors, friends and family! 
              <strong className="text-red-700"> Please take a moment to leave us a Google review</strong> and 
              follow us on <strong><a className="text-red-700" href="https://www.facebook.com/profile.php?id=61573762149968">Facebook</a></strong> and Instagram to stay connected!
           </p>
