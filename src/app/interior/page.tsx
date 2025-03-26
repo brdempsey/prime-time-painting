@@ -117,11 +117,12 @@ export default function Interior() {
             <li className="flex items-center gap-2">Wallpaper Removal</li>
             <li className="flex items-center gap-2">Drywall Repair</li>
             <li className="flex items-center gap-2">Popcorn Ceiling Removal</li>
-            <li className="flex items-center gap-2">Specialty Texture Painting</li>
-
+            <li className="flex items-center gap-2">
+              Specialty Texture Painting
+            </li>
           </ul>
           <button className="mt-6 px-6 py-3 bg-red-700 text-white text-lg font-semibold shadow-md hover:bg-red-800 transition-all duration-300">
-            Book a Consultation
+            <a href="/contact-us">Book a Consultation</a>
           </button>
         </div>
       </div>

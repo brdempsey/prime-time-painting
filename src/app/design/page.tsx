@@ -100,16 +100,17 @@ export default function Design() {
 
         {/* Services Section */}
         <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg p-6 bg-cover bg-center bg-[url('/design/design_services_bg.jpg')]">
-          <h1 className="text-4xl text-center md:text-start font-bold text-red-700 mb-6">Design Services</h1>
+          <h1 className="text-4xl text-center md:text-start font-bold text-red-700 mb-6">
+            Design Services
+          </h1>
           <ul className="space-y-3 text-xl text-white font-bold">
             <li className="flex items-center gap-2"> Color Consultation</li>
             <li className="flex items-center gap-2"> Custom Accent Walls</li>
             <li className="flex items-center gap-2"> Faux Finishes</li>
             <li className="flex items-center gap-2"> Custom Remodel Designs</li>
-          
           </ul>
           <button className="mt-6 px-6 py-3 bg-red-700 text-white text-lg font-semibold shadow-md hover:bg-red-800 transition-all duration-300">
-            Book a Consultation
+            <a href="/contact-us">Book a Consultation</a>
           </button>
         </div>
       </div>

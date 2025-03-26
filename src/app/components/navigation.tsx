@@ -59,7 +59,7 @@ export const Navigation = () => {
               <Link href="/about-us" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 About PrimeTime
               </Link>
-              <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+              <Link href="/meet-our-team" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Meet Our Team
               </Link>
               <Link href="/why-choose-primetime" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
@@ -128,7 +128,7 @@ export const Navigation = () => {
               <Link href="/about-us" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 About PrimeTime
               </Link>
-              <Link href="#" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
+              <Link href="meet-our-team" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>
                 Meet Our Team
               </Link>
               <Link href="/why-choose-primetime" className="block px-4 text-black hover:bg-gray-100" onClick={closeAllMenus}>

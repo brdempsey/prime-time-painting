@@ -10,9 +10,13 @@ export default function Exterior() {
       {/* Title */}
       <div className="flex flex-col items-center text-center pb-10">
         <h1 className="text-4xl font-bold">Exterior</h1>
-        <h2 className="text-3xl">Enhance Your Home&apos;s Curb Appeal with Professional Exterior Painting!</h2>
+        <h2 className="text-3xl">
+          Enhance Your Home&apos;s Curb Appeal with Professional Exterior
+          Painting!
+        </h2>
         <p className="text-base text-body-color">
-        Give your home a fresh, vibrant look with Primetime&apos;s expert exterior painting services.
+          Give your home a fresh, vibrant look with Primetime&apos;s expert
+          exterior painting services.
         </p>
       </div>
 
@@ -25,10 +29,11 @@ export default function Exterior() {
             <div className="w-full md:w-1/2 bg-white shadow-md hover:shadow-lg p-6">
               <h1 className="text-3xl font-bold text-red-700 mb-4">Step 1</h1>
               <h4 className="font-semibold text-xl text-dark mb-3">
-              Consultation & Quote
+                Consultation & Quote
               </h4>
               <p>
-              We assess your home’s exterior and provide a detailed, transparent estimate.
+                We assess your home’s exterior and provide a detailed,
+                transparent estimate.
               </p>
             </div>
             {/* Image */}
@@ -49,10 +54,11 @@ export default function Exterior() {
             <div className="w-full md:w-1/2 bg-white shadow-md hover:shadow-lg p-6">
               <h1 className="text-3xl font-bold text-red-700 mb-4">Step 2</h1>
               <h4 className="font-semibold text-xl text-dark mb-3">
-              Precision Painting
+                Precision Painting
               </h4>
               <p>
-              Our skilled painters prep, prime, and paint using top-quality materials for a flawless finish.
+                Our skilled painters prep, prime, and paint using top-quality
+                materials for a flawless finish.
               </p>
             </div>
             {/* Image */}
@@ -73,10 +79,11 @@ export default function Exterior() {
             <div className="w-full md:w-1/2 bg-white shadow-md hover:shadow-lg p-6">
               <h1 className="text-3xl font-bold text-red-700 mb-4">Step 3</h1>
               <h4 className="font-semibold text-xl text-dark mb-3">
-              Enjoy the Results
+                Enjoy the Results
               </h4>
               <p>
-              Stand back and admire your home’s refreshed, vibrant look with lasting curb appeal!
+                Stand back and admire your home’s refreshed, vibrant look with
+                lasting curb appeal!
               </p>
             </div>
             {/* Image */}
@@ -94,20 +101,27 @@ export default function Exterior() {
 
         {/* Services Section */}
         <div className="flex flex-col items-center w-full md:w-1/3 bg-white shadow-lg p-6 bg-cover bg-center bg-[url('/exterior/exterior_bg.jpg')]">
-          <h1 className="text-4xl text-center md:text-start font-bold text-red-700 mb-6">Exterior Services</h1>
+          <h1 className="text-4xl text-center md:text-start font-bold text-red-700 mb-6">
+            Exterior Services
+          </h1>
           <ul className="space-y-3 text-xl text-white font-bold">
-            <li className="flex items-center gap-2"> Exterior House Painting</li>
+            <li className="flex items-center gap-2">
+              {" "}
+              Exterior House Painting
+            </li>
             <li className="flex items-center gap-2"> Epoxy Flooring</li>
             <li className="flex items-center gap-2"> Power Washing</li>
             <li className="flex items-center gap-2"> Concrete Staining</li>
             <li className="flex items-center gap-2"> Deck Staining</li>
             <li className="flex items-center gap-2"> Wood Staining</li>
             <li className="flex items-center gap-2"> Fence Painting</li>
-            <li className="flex items-center gap-2"> Sanding & Preparatory Work</li>
-          
+            <li className="flex items-center gap-2">
+              {" "}
+              Sanding & Preparatory Work
+            </li>
           </ul>
           <button className="mt-6 px-6 py-3 bg-red-700 text-white text-lg font-semibold shadow-md hover:bg-red-800 transition-all duration-300">
-            Book a Consultation
+            <a href="/contact-us">Book a Consultation</a>
           </button>
         </div>
       </div>

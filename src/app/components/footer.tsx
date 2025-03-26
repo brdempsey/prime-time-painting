@@ -60,7 +60,7 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contactus" className="hover:text-red-600">
+                <Link href="/contact-us" className="hover:text-red-600">
                   Contact Us
                 </Link>
               </li>
