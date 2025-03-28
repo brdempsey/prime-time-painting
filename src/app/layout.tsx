@@ -15,9 +15,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Time Painting & Remodeling",
-  description: "Painting and Remodeling Company based in Wichita, KS",
+  title: "PrimeTime Painting & Remodeling | Wichita, KS",
+  description: "Professional painting and remodeling services in Wichita, KS. We specialize in residential and commercial renovations. Contact us today!",
+  keywords: ["painting", "remodeling", "home improvement", "Wichita KS", "PrimeTime Painting", "residential", "commercial", "renovations", "interior", "exterior", "decorating", "design", "construction"],
+  authors: [{ name: "PrimeTime Painting & Remodeling", url: "https://primetimewichita.com" }],
+  robots: "index, follow",
+  openGraph: {
+    title: "PrimeTime Painting & Remodeling",
+    description: "Expert painting and remodeling services in Wichita, KS.",
+    url: "https://primetimewichita.com",
+    type: "website",
+    images: [
+      {
+        url: "https://primetimewichita.com/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "PrimeTime Painting & Remodeling",
+      },
+    ],
+  }
 };
+
 
 export default function RootLayout({
   children,
