@@ -52,7 +52,7 @@ export default function ContactUs() {
       </div>
 
       {/* Contact Form Section */}
-      <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col md:flex-row w-full max-w-3xl">
+      <div className="bg-white text-black p-8 rounded-2xl shadow-lg flex flex-col md:flex-row w-full max-w-3xl">
         {/* Form Section */}
         <div className="md:w-1/2 md:pr-6">
           <h2 className="text-3xl font-semibold text-center mb-6 text-gray-800">
@@ -68,6 +68,17 @@ export default function ContactUs() {
                 name="name"
                 className="w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
                 placeholder="Your Name"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                Phone
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                className="w-full p-3 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                placeholder="555-555-5555"
               />
             </div>
             <div>
