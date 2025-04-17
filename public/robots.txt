@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://primetimewichita.com
+
+# Sitemaps
+Sitemap: https://primetimewichita.com/sitemap.xml
