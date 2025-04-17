@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import {Navigation} from "./components/navigation";
-import {Footer} from "./components/footer";
+import { Navigation } from "./components/navigation";
+import { Footer } from "./components/footer";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,9 +17,29 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "PrimeTime Painting & Remodeling | Wichita, KS",
-  description: "Professional painting and remodeling services in Wichita, KS. We specialize in residential and commercial renovations. Contact us today!",
-  keywords: ["painting", "remodeling", "home improvement", "Wichita KS", "PrimeTime Painting", "residential", "commercial", "renovations", "interior", "exterior", "decorating", "design", "construction"],
-  authors: [{ name: "PrimeTime Painting & Remodeling", url: "https://primetimewichita.com" }],
+  description:
+    "Professional painting and remodeling services in Wichita, KS. We specialize in residential and commercial renovations. Contact us today!",
+  keywords: [
+    "painting",
+    "remodeling",
+    "home improvement",
+    "Wichita KS",
+    "PrimeTime Painting",
+    "residential",
+    "commercial",
+    "renovations",
+    "interior",
+    "exterior",
+    "decorating",
+    "design",
+    "construction",
+  ],
+  authors: [
+    {
+      name: "PrimeTime Painting & Remodeling",
+      url: "https://primetimewichita.com",
+    },
+  ],
   robots: "index, follow",
   openGraph: {
     title: "PrimeTime Painting & Remodeling",
@@ -33,9 +54,8 @@ export const metadata: Metadata = {
         alt: "PrimeTime Painting & Remodeling",
       },
     ],
-  }
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -44,6 +64,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="DpXEObJq1vGszFEXsW8HxAaJpkLQLqChtXvBoSNRZMA"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
